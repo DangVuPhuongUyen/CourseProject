@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-Page</title>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="./css/bootstrap/bootstrap.css">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="./css/font_awesome/all.css">
+    <!--Owl Carousel-->
+    <link rel="stylesheet" href="./css/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl-carousel/owl.theme.default.min.css">
+    <!--Customer Style-->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="panel">
+            <div class="row">
+                <div class="col liquid">
+                    <h4><i class="fas fa-drafting-compass"></i>&nbsp;Ready Co.</h4>
+
+                    <div class="owl-carousel owl-theme">
+                        <img src="./asset/undraw_authentication_fsn5.svg" alt="" class="login_img ">
+                        <img src="./asset/undraw_fingerprint_swrc.svg" alt="" class="login_img ">
+                        <img src="./asset/undraw_personal_data_29co.svg" alt="" class="login_img ">
+                    </div>
+                    <!--Owl -Carousel-->
+                    <div class="follow">Follow us &nbsp;<i class="fab fa-facebook-f"></i>&nbsp; <i class="fab fa-linkedin-in"></i>
+                    </div>
+
+                </div>
+                <div class="col login">
+                    <button type="button" class="btn btn-signup">Sign Up</button>
+                    <form>
+                        <div class="titles">
+                            <h6>We keep everything</h6>
+                            <h3>Ready to Login</h3>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email" class="form-input">
+                            <div class="input-icon"><i class="fas fa-user"></i>&nbsp;</div>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="password" placeholder="Password" class="form-input">
+                            <div class="input-icon"><i class="fas fa-user-lock"></i>&nbsp;</div>
+                        </div>
+                        <button type="submit" class="btn btn-login">Login</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Bootstrap-->
+    <script src="./js/bootstrap/bootstrap.js"></script>
+    <!--Jquery Libraries file-->
+    <script src="./js/jquery/jquery.min.js "></script>
+    <!--Customer Style-->
+    <script src="./js/main.js"></script>
+    <!--Font Awesome-->
+    <script src="./js/font_awesome/all.js"></script>
+    <!--Owl Carousel JS-->
+    <script src="./js/owl-carousel/owl.carousel.min.js "></script>
+    <script>
+        $(document).ready(function() {
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                autoplay: true,
+                autoplayTimeout: 2000,
+                autoplayHoverPause: true,
+                items: 1,
+            });
+        });
+    </script>
+    <script></script>
+</body>
+
+
+</html>
+
+</html>
